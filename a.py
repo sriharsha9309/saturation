@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model from the pickle file
-spo2=pickle.load(open("F:\spo2\spo2.pkl", 'rb'))
+spo2=pickle.load(open('spo2.pkl', 'rb'))
 
 
 # Create the Streamlit app
